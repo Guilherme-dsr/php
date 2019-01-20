@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto-PHP-While-11</title>
+	<meta charset="utf-8"> 
+</head>
+<body bgcolor=#CEE3F6>
+<h1><center><font size="6" color="blue">Estudando PHP:</font></h1>
+
+	<form method="get" action="whole.php">
+<?php
+$c = 1;
+
+while ($c<=10) {
+echo $c;
+$c++;
+}
+?>
+
+</center>
+</body>
+</html>
